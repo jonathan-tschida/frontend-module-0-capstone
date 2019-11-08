@@ -1,0 +1,47 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  scroll-snap-type: y mandatory;
+}
+
+body {
+  background-image: url(images/DnD_Starter_Art.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center 20%;
+  background-size: cover;
+  width: 100vw;
+}
+
+h1 {
+  margin: auto;
+  width: 75%;
+  font-family: serif;
+  font-size: 6vw;
+  text-align: center;
+  color: hsl(0 78% 50%);
+  text-transform: uppercase;
+  text-shadow: .05em .05em .05em black;
+}
+
+#logoDnd {
+  margin: auto;
+  max-width: 98%;
+  filter: drop-shadow(10px 10px 5px black);
+}
+
+p, h2, h3, ol {
+  color: white;
+  font-family: sans-serif;
+  text-shadow: .1em .1em .1em black;
+  background-color: rgba(0, 0, 0, .5);
+  margin: 10px;
+}
+
+a {
+  color: white;
+}
+
+img.book {
+  max-height: 50vh;
+}
